@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.screen.share.newone"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        setProperty("archivesBaseName", "Screen Share - $versionName-$versionCode")
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.google.android.gms:play-services-ads:17.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //finest web view
+    implementation 'com.thefinestartist:finestwebview:1.2.7'
+    //WebSocket
+    implementation 'org.java-websocket:Java-WebSocket:1.4.0'
+    //web server
+    implementation 'com.yanzhenjie:andserver:1.0.3'
+    //rx permission
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //material dialog
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    //qr code
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+    //sdp lib
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //show case
+    implementation 'com.github.deano2390:MaterialShowcaseView:1.3.0'
+    implementation 'com.github.amlcurran.showcaseview:library:5.4.3'
+    implementation 'com.airbnb.android:lottie:2.5.5'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.klinkerapps:article_viewer:0.26.0'
+
+}

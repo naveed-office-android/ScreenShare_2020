@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Screen Share</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/et-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/tooltip.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link id="main" rel="stylesheet" type="text/css" href="css/publisher.css">
+</head>
+<body  background="img/bg.png">	
+<div id="wrapper" class="behind">
+<header>
+	<div class="container">
+			<div class="col-md-6 col-sm-12 wow animated fadeInUp">
+				<div class="intro-book">
+					<img src="img/header.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-6 intro-text hidden-sm hidden-xs wow animated fadeInUp">
+				<h2 class="heading">Required PIN for sharing</h2>
+			
+				<p>
+					<div class="row">
+ 					<div class="col-lg-8">
+ 					<form name="myForm">
+					  <input class="form-control"  placeholder="Enter PIN" id="inputSmall" type="password"
+					  	maxlength=4 pattern=[0-9]{4} required size=4 title="FOUR_DIGITS">
+					</div></div>
+					</p>
+			
+				<button class="btn btn-green" type="submit" onclick="check(this.form)" >Submit</button>
+				</form>
+			</div>
+	</div>
+</header>
+</div>
+</div>
+
+<script> 
+	var pin = localStorage["pin"];
+
+	function check(form){
+		if (form.inputSmall.value == pin) {
+			window.location.replace("screen.html");
+			localStorage["pinKey"] = "pinOk";
+		} else{
+			alert("Wrong Pin");
+		}
+	}
+
+</script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.onepagenav.js"></script>
+<script src="js/core.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/jquery.form-validator.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

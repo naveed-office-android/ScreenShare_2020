@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#478fcc</color>
+    <color name="colorPrimaryDark">#33429B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorHeaderText">#1c313a</color>
+    <color name="colorSecondaryText">#455a64</color>
+    <color name="colorSettingsCheckBoxNormal">@color/colorBlack</color>
+    <color name="colorSettingsCheckBoxActivated">@color/colorAccent</color>
+    <color name="colorSettingsDivider">#cfd8dc</color>
+    <color name="colorHeaderTextDisabled">#696969</color>
+    <color name="colorSecondaryTextDisabled">#7e7e7e</color>
+    <color name="toolbar_color">#478fcc</color>
+    <color name="toolbar_color2">#66a8e1</color>
+    <color name="button_color">#33429B</color>
+    <color name="black">#252424</color>
+    <color name="menu_text">#252424</color>
+    <color name="menu_text2">#252424</color>
+    <color name="bg_color">#d7d6d6</color>
+    <color name="text_color">#646464 </color>
+    <color name="button_disable_color">#646464 </color>
+    <color name="red">#8b2424</color>
+</resources>

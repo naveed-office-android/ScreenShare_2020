@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Screen Share APP</string>
+    <string name="enter_ip_address">Enter IP Address</string>
+    <string name="ip_address">IP Address</string>
+    <string name="host">Host</string>
+    //original ads
+    <!--<string name="ad_mob_app_id">ca-app-pub-7294466580019091~1803775069</string>
+    <string name="banner">ca-app-pub-7294466580019091/6150090472</string>
+    <string name="interstitial">ca-app-pub-7294466580019091/1420631684</string>-->
+    //Test Ads
+    <string name="ad_mob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <string name="scan_qrcode">Scan QR</string>
+    <string name="start_hosting">Start Hosting</string>
+    <string name="share_audio">Share Audio</string>
+    <string name="start_recording">Start Sharing</string>
+    <string name="hotspot_info">This Phone establishes a wifi hotspot, </string>
+    <string name="wifi_info">This phone and other devices (Mobile phone, Laptop, Computer, Smart Tv or PC)should have same Wifi network to view this phone Screen Share</string>
+    <string name="share_using">\"Share Using\"</string>
+    <string name="share">Share</string>
+    <string name="main_discription">Share your Screen on other Devices</string>
+    <string name="client">Client</string>
+    <string name="rate">Rate</string>
+    <string name="stop_recording">Stop Sharing</string>
+    <string name="go">Go</string>
+    <string name="stop_hosting">Stop Hosting</string>
+    <string name="host_discription">Click on this Button if u want to share this device screen with other</string>
+    <string name="client_discription">Click on this Button to View shared screen of other devices</string>
+    <string name="start_host_discrp">Click this button to start Hosting </string>
+    <string name="start_recod_discrp">Click to start recording screen and Sharing </string>
+    <string name="Terms_conditions">Terms and Conditions</string>
+    <string name="permission1">1:STORAGE ACCESS</string>
+    <string name="permission3">2:ACCESS_WIFI_STATE</string>
+    <string name="permission4">3:CHANGE_WIFI_STATE</string>
+    <string name="following_permissions">App require following permissions\n\n
+        1: STORAGE ACCESS\t\t\n\n
+        2: ACCESS_WIFI_STATE\n\n
+        3: CHANGE_WIFI_STATE\n\n
+        \n\n\n\n
+        Thank you for installing our App
+    </string>
+    <string name="read_Terms">Yes i Agree to give permissions</string>
+    <string name="thanks_for">Thank you for installing our App</string>
+    <string name="note">Note:We do not collect any data</string>
+    <string name="portHint">192.168.10.10</string>
+    <string name="portnumber">40405</string>
+</resources>
